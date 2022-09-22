@@ -3,11 +3,11 @@
 const questions = [
   {
     "question": "Age range?",
-    "answer1": "under 18",
+    "answer1": "18 -25",
     "answer1Total": "1",
-    "answer2": "18 - 30",
+    "answer2": "26 - 35",
     "answer2Total": "2",
-    "answer3": "over 30",
+    "answer3": "over 35",
     "answer3Total": "3"
   },
   {
@@ -139,10 +139,10 @@ function loadNextQuestion () {
          <div class="summary">
             <h1>Summary</h1>
             <p>Possible Birthday Choices:</p>
-            <p>15 - 21- You Need Help</p>
-            <p>10 - 15 - Good Soul</p>
-            <p>5 - 10 - Meh </p>
-            <p>5 - Are You Even Real</p>
+            <p>15 - 21- Take a trip to: Costa Rica, Miami, or Panama </p>
+            <p>10 - 15 - You'd love a short trip to American Dream, Skating at Bryant Park or a road trip to Chester Hills for .... </p>
+            <p>5 - 10 - Welp, theres not much but there is (that coaster ride in jersey) </p>
+            <p>5 - it's a tough pick but maybe try staying in with friends for cupcakes, wine, and a movie night/game night</p>
         </div>
         <button class="restart">Restart Quiz</button>
          `;
